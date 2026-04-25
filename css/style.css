@@ -4384,3 +4384,12 @@
     height: 1100px !important;
     min-height: 1100px !important;
 }
+
+@media screen and (max-width:639px) {
+    #rec1862692161 .t396__artboard,
+    #rec1862692161 .t396__filter,
+    #rec1862692161 .t396__carrier {
+        height:850px !important;
+        min-height:850px !important;
+    }
+}
