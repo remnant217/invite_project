@@ -1773,7 +1773,7 @@
 
 @media screen and (max-width:1199px) {
     #rec1862692161 .t396__artboard, #rec1862692161 .t396__filter, #rec1862692161 .t396__carrier {
-        height:1000px;
+        height:2000px;
     }
     #rec1862692161 .t396__filter {
     }
@@ -2137,16 +2137,16 @@
 }
 
 #rec1862692181 .t396__artboard {
-    height:590px;
+    height:550px;
     background-color:#f5ecdd;
 }
 
 #rec1862692181 .t396__filter {
-    height:590px;
+    height:550px;
 }
 
 #rec1862692181 .t396__carrier {
-    height:590px;
+    height:550px;
     background-position:center center;
     background-attachment:scroll;
     background-size:cover;
@@ -2154,13 +2154,10 @@
 }
 
 @media screen and (max-width:1199px) {
-    #rec1862692181 .t396__artboard, #rec1862692181 .t396__filter, #rec1862692181 .t396__carrier {
-        height:540px;
-    }
-    #rec1862692181 .t396__filter {
-    }
+    #rec1862692181 .t396__artboard,
+    #rec1862692181 .t396__filter,
     #rec1862692181 .t396__carrier {
-        background-attachment:scroll;
+        height:500px;
     }
 }
 
@@ -4379,4 +4376,11 @@
         top: 205px !important;
         left: calc(50% - 160px + 275px) !important;
     }
+}
+
+#rec1862692161 .t396__artboard,
+#rec1862692161 .t396__filter,
+#rec1862692161 .t396__carrier {
+    height: 1100px !important;
+    min-height: 1100px !important;
 }
