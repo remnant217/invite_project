@@ -4386,10 +4386,18 @@
 }
 
 @media screen and (max-width:639px) {
+    #rec1862692161,
+    #rec1862692161 .t396,
     #rec1862692161 .t396__artboard,
     #rec1862692161 .t396__filter,
     #rec1862692161 .t396__carrier {
-        height:300px !important;
-        min-height:300px !important;
+        height: 840px !important;
+        min-height: 840px !important;
+        max-height: 840px !important;
+    }
+
+    #rec1862692161 .dresscode-example {
+        top: 300px !important;
+        width: 280px !important;
     }
 }
