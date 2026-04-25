@@ -315,13 +315,18 @@
     #rec1862692091 .tn-elem[data-elem-id="175864866339190750"] {
         display: table;
         top: 325px;
-        left: calc(50% - 161px + 20px);
-        width: 279px;
+        left: calc(50% - 160px);
+        width: 320px;
         height: auto;
+        text-align: center;
     }
 
     #rec1862692091 .tn-elem[data-elem-id="175864866339190750"] .tn-atom {
-        font-size: 70px;
+        vertical-align: middle;
+        white-space: normal;
+        font-size: 46px;
+        text-align: center;
+        line-height: 1;
         background-size: cover;
     }
 }
@@ -356,15 +361,18 @@
 @media screen and (max-width:1199px) {
     #rec1862692091 .tn-elem[data-elem-id="175864876211825230"] {
         display: table;
-        top: 381px;
-        left: calc(50% - 110px);
-        width: 220px;
+        top: 375px;
+        left: calc(50% - 140px);
+        width: 280px;
         height: auto;
+        text-align:center;
     }
 
     #rec1862692091 .tn-elem[data-elem-id="175864876211825230"] .tn-atom {
-        font-size: 30px;
-        background-size: cover;
+        font-size:40px;
+        text-align:center;
+        white-space:normal;
+        background-size:cover;
     }
 }
 
@@ -2178,7 +2186,7 @@
     #rec1862692181 .t396__artboard,
     #rec1862692181 .t396__filter,
     #rec1862692181 .t396__carrier {
-        height: 500px;
+        height: 650px;
     }
 }
 
@@ -2187,13 +2195,14 @@
     top: 20px;
     left: calc(50% - 600px + 424px);
     width: 352px;
-    height: 483px;
+    height: 528px;
 }
 
 #rec1862692181 .tn-elem[data-elem-id="175864822984449000"] .tn-atom {
-    border-radius: 0px 0px 0px 0px;
+    border-radius: 0px;
+    background-image: url("../img/details.PNG") !important;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     --t396-borderstyle: solid;
     --t396-borderstyle-existed: 1;
@@ -2210,17 +2219,19 @@
         top: 0px;
         left: calc(50% - 160px + 0px);
         width: 320px;
-        height: 493px;
+        height: 480px;
     }
 
     #rec1862692181 .tn-elem[data-elem-id="175864822984449000"] .tn-atom {
+        background-image: url("../img/details.PNG") !important;
         background-position: center center;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 }
 
 #rec1862692181 .tn-elem[data-elem-id="175864866339190750"] {
-    color: #ffffff;
+    color: #3d2314;
     text-align: center;
     z-index: 3;
     top: 70px;
@@ -2232,7 +2243,7 @@
 #rec1862692181 .tn-elem[data-elem-id="175864866339190750"] .tn-atom {
     vertical-align: middle;
     white-space: nowrap;
-    color: #ffffff;
+    color: #3d2314;
     font-size: 80px;
     font-family: "2th", Arial, sans-serif;
     line-height: 1;
@@ -2263,7 +2274,7 @@
 }
 
 #rec1862692181 .tn-elem[data-elem-id="175864876211825230"] {
-    color: #ffffff;
+    color: #3d2314;
     text-align: center;
     z-index: 3;
     top: 167px;
@@ -2274,7 +2285,7 @@
 
 #rec1862692181 .tn-elem[data-elem-id="175864876211825230"] .tn-atom {
     vertical-align: middle;
-    color: #ffffff;
+    color: #3d2314;
     font-size: 14px;
     font-family: "Montserrat", Arial, sans-serif;
     line-height: 1;
@@ -2305,7 +2316,7 @@
 }
 
 #rec1862692181 .tn-elem[data-elem-id="175865128181666180"] {
-    color: #ffffff;
+    color: #3d2314;
     text-align: center;
     z-index: 3;
     top: 250px;
@@ -2316,7 +2327,7 @@
 
 #rec1862692181 .tn-elem[data-elem-id="175865128181666180"] .tn-atom {
     vertical-align: middle;
-    color: #ffffff;
+    color: #3d2314;
     font-size: 14px;
     font-family: "Montserrat", Arial, sans-serif;
     line-height: 1;
@@ -2348,7 +2359,7 @@
 
 #rec1862692181 .custom-dance-shoes-text {
     position: absolute;
-    color: #ffffff;
+    color: #3d2314;
     text-align: center;
     z-index: 3;
     top: 332px;
@@ -2360,7 +2371,7 @@
 
 #rec1862692181 .custom-dance-shoes-text .tn-atom {
     vertical-align: middle;
-    color: #ffffff;
+    color: #3d2314;
     font-size: 14px;
     font-family: "Montserrat", Arial, sans-serif;
     line-height: 1;
@@ -3409,5 +3420,29 @@ div[class*="bgmusic"] {
         width: 150px;
         height: 40px;
         font-size: 12px;
+    }
+}
+
+
+/* ===== Details text color fix ===== */
+
+#rec1862692181 .tn-elem[data-elem-id="175864866339190750"] .tn-atom,
+#rec1862692181 .tn-elem[data-elem-id="175864876211825230"] .tn-atom,
+#rec1862692181 .tn-elem[data-elem-id="175865128181666180"] .tn-atom,
+#rec1862692181 .custom-dance-shoes-text .tn-atom {
+    color: #3d2314 !important;
+
+    /* нормальная обводка по контуру */
+    -webkit-text-stroke: 1px #f5ecdd;
+    paint-order: stroke fill;
+}
+
+@media screen and (max-width:639px) {
+    #rec1862692181 .tn-elem[data-elem-id="175864866339190750"] .tn-atom,
+    #rec1862692181 .tn-elem[data-elem-id="175864876211825230"] .tn-atom,
+    #rec1862692181 .tn-elem[data-elem-id="175865128181666180"] .tn-atom,
+    #rec1862692181 .custom-dance-shoes-text .tn-atom {
+        -webkit-text-stroke: 0.6px #f5ecdd;
+        paint-order: stroke fill;
     }
 }
