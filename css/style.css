@@ -4302,88 +4302,7 @@
      z-index:99 !important;
 }
 
-/* ===== Dresscode block fix ===== */
-
-#rec1862692161 .t396__artboard,
-#rec1862692161 .t396__filter,
-#rec1862692161 .t396__carrier {
-    height: 860px !important;
-}
-
-#rec1862692161 .tn-elem[data-elem-id="175865071077000000"] {
-    z-index: 4;
-    top: 260px;
-    left: calc(50% - 600px + 390px);
-    width: 420px;
-    height: auto;
-}
-
-#rec1862692161 .tn-elem[data-elem-id="175865071077000000"] .tn-atom__img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-}
-
-/* Мобильная версия */
-@media screen and (max-width:1199px) {
-    #rec1862692161 .t396__artboard,
-    #rec1862692161 .t396__filter,
-    #rec1862692161 .t396__carrier {
-        height: 700px !important;
-    }
-
-    #rec1862692161 .tn-elem[data-elem-id="175865071077000000"] {
-        top: 270px !important;
-        left: calc(50% - 160px + 20px) !important;
-        width: 280px !important;
-    }
-}
-
-
-@media screen and (max-width:1199px) {
-    #rec1862692161 .tn-elem[data-elem-id="175865071075963860"] {
-        top: 205px !important;
-        left: calc(50% - 160px + 5px) !important;
-    }
-
-    #rec1862692161 .tn-elem[data-elem-id="175865071076115210"] {
-        top: 205px !important;
-        left: calc(50% - 160px + 50px) !important;
-    }
-
-    #rec1862692161 .tn-elem[data-elem-id="175865071076311700"] {
-        top: 205px !important;
-        left: calc(50% - 160px + 95px) !important;
-    }
-
-    #rec1862692161 .tn-elem[data-elem-id="175865071076572570"] {
-        top: 205px !important;
-        left: calc(50% - 160px + 140px) !important;
-    }
-
-    #rec1862692161 .tn-elem[data-elem-id="175865071076763200"] {
-        top: 205px !important;
-        left: calc(50% - 160px + 185px) !important;
-    }
-
-    #rec1862692161 .tn-elem[data-elem-id="175865071076763201"] {
-        top: 205px !important;
-        left: calc(50% - 160px + 230px) !important;
-    }
-
-    #rec1862692161 .tn-elem[data-elem-id="175865071076763202"] {
-        top: 205px !important;
-        left: calc(50% - 160px + 275px) !important;
-    }
-}
-
-#rec1862692161 .t396__artboard,
-#rec1862692161 .t396__filter,
-#rec1862692161 .t396__carrier {
-    height: 1100px !important;
-    min-height: 1100px !important;
-}
+/* ===== FINAL FIX: Dresscode mobile spacing ===== */
 
 @media screen and (max-width:639px) {
     #rec1862692161,
@@ -4391,13 +4310,14 @@
     #rec1862692161 .t396__artboard,
     #rec1862692161 .t396__filter,
     #rec1862692161 .t396__carrier {
-        height: 1200px !important;
-        min-height: 1200px !important;
-        max-height: 1200px !important;
+        height: 980px !important;
+        min-height: 980px !important;
+        max-height: none !important;
     }
 
-    #rec1862692161 .dresscode-example {
-        top: 300px !important;
+    #rec1862692161 .tn-elem[data-elem-id="175865071077000000"] {
+        top: 270px !important;
+        left: calc(50% - 160px + 20px) !important;
         width: 280px !important;
     }
 }
