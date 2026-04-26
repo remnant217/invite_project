@@ -2829,11 +2829,12 @@
     top: 20px;
     left: calc(50% - 600px + 424px);
     width: 352px;
-    height: 483px;
+    height: 520px;
 }
 
 #rec1862692231 .tn-elem[data-elem-id="175864822984449000"] .tn-atom {
     border-radius: 0px 0px 0px 0px;
+    background-image: url("../img/glasses.PNG") !important;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3401,7 +3402,29 @@ div[class*="bgmusic"] {
     color: #ffffff;
 }
 
+#rec1862692201 .wedding-form__status {
+    margin-top: 18px;
+    min-height: 24px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    text-align: center;
+    color: #3d2314;
+}
+
+#rec1862692201 .wedding-form__status_success {
+    color: #5a5d45;
+}
+
+#rec1862692201 .wedding-form__status_error {
+    color: #9b2c2c;
+}
+
 @media screen and (max-width: 639px) {
+    #rec1862692201 .wedding-form__field {
+        margin-bottom: 16px;
+        font-size: 14px;
+    }
     #rec1862692201 .wedding-form__field {
         margin-bottom: 16px;
         font-size: 14px;
